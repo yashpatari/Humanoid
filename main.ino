@@ -68,6 +68,7 @@ uint8_t servonum = 0;
      p=i+1;}
      }
      ang[a]=(b.substring(p,b.length())).toInt();
+       pwm1.reset();
      }
         
     
